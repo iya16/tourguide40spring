@@ -1,0 +1,10 @@
+{
+    "main": {
+      "header": "¡Bienvenido/a a la app!",
+      "paragraphOne": "La internacionalización es un paso importante para superar la barrera del idioma entre las personas que utilizan una aplicación de software en particular. Por ejemplo, los usuarios objetivo de la aplicación pueden hablar diferentes idiomas y tener distintas convenciones para números, fechas o cadenas.",
+      "cardOne": {
+         "para": "Un texto de ejemplo rápido para desarrollar el título de la tarjeta y constituir la mayor parte del contenido de la tarjeta."
+      },
+      "cardheader": "Hotel y Resort recomendado"
+      }
+  }

@@ -1,0 +1,28 @@
+.packagelist{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    padding: 30px;
+}
+@media screen and (min-width: 760px) {
+    .packagelist {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+        padding: 15px;
+    }   
+}
+@media screen and (min-width: 760px) {
+    .packagelist {
+         
+        grid-template-columns: 1fr 1fr;
+        
+    }   
+}
+@media screen and (min-width: 760px) {
+    .packagelist {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1.5rem;
+    }   
+}

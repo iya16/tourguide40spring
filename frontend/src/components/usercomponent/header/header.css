@@ -1,0 +1,152 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+body{
+     justify-content: center;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    margin: 0;
+
+    }
+.header{
+    margin: 0;
+    padding-bottom: 10px;
+    /* justify-content: space-around; */
+    text-align: center;
+    display: flex;
+    border-radius: 4px;
+    border: 1px black;
+     width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    padding: 20px;
+     
+    }
+.header.scrolled {
+        background-color: white;  
+        color: black;
+        box-shadow: 0, 4;
+      }
+.header.scrolled ul li a{
+         color: black;
+         font-size: 1rem;
+         font-weight: 400;
+      }
+ 
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+.header ul li{
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 600;
+    color: #fff;
+    }
+.header ul li a{
+    transition: 0.3 ease-in-out;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 1rem;
+    justify-content: center; 
+    }
+.header ul li a:hover{ 
+    color: #17cf97;
+    }
+.header ul li a:hover::after{ 
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    align-items: center;
+    justify-content: right;
+    columns: #17cf97;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        margin-right: 10px;
+        margin: 5px;
+        width: 100%;
+        justify-content: space-around;
+        /* color: rgb(235, 243, 237); */
+        border-radius: 4px;
+    
+    }
+    ul li{
+        font-size: large;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+     
+    input{
+        height: 25px;
+        font-family: sans-serif;
+        font-size: 1rem;
+        width: 50%;
+     }
+
+i {
+    color: green;
+    size: 30px;
+    justify-self: right;
+    justify-content: end;
+    align-items: end;
+    align-content: flex-end;
+}
+.menu-toggle {
+    display: none; /* Hide toggle by default, shown only on mobile */
+    cursor: pointer;
+    font-size: 1.5em;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.collapsed-menu {
+    display: none; /* Start with a hidden menu in mobile view */
+}
+.icons{
+    display: none;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;  /* Show toggle button on small screens */
+    }
+
+    #Navbar {
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 60px; /* Adjust based on your header's height */
+        left: 0;
+        background: #fff;
+        transition: all 0.3s ease;
+    }
+
+    .collapsed-menu {
+        display: flex; /* Show menu when toggled */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Navbar li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+ 

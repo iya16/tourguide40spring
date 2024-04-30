@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.usertable{
+     justify-content: center;
+     padding-left: 23%;
+     padding-top: 3px;
+}
+.userhead{
+    display: flex;
+    font-family: serif;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.userhead a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: black;
+}
+.userhead a:hover{
+    transition: 0.3s;
+    color: aqua;
+}
+.usertable table{
+    border: 1px solid;
+    text-decoration: none;
+    justify-content: center;
+    /* padding-left: 3px; */
+    table-layout: auto;
+
+
+}
+table, th, td {
+    border: 1px solid black;
+    padding: auto;
+    
+  }

@@ -1,0 +1,105 @@
+.signup {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+  } */
+  
+  /* Adjust the size of the icons */
+   label img { 
+    width: 24px;  
+    height: 24px; 
+    margin-right: 10px;  
+  }
+   
+   .input-container { 
+    position: relative; /*Ensure relative positioning for the input container */
+   } 
+  
+   input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .toggle-password-icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .error-text {
+    color: #ff6347;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  } 
+  
+  /* Adjust the position of the toggle password icon */
+ .password-container,
+  .confirm-password-container {
+    position: center;
+  }
+  
+  .password-container .toggle-password-icon,
+  .confirm-password-container .toggle-password-icon {
+    right: 100px;
+  }
+  
